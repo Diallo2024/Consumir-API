@@ -1,0 +1,130 @@
+{
+  "personajes": [
+    {
+      "name": "Thor",
+      "alias": "Thor",
+      "firstAppearance": "Journey into Mystery #83",
+      "powers": [
+        "Superhuman strength",
+        "Control over lightning",
+        "Flight",
+        "Immortality"
+      ],
+      "id": "0f1e"
+    },
+    {
+      "name": "Bruce Banner",
+      "alias": "Hulk",
+      "firstAppearance": "The Incredible Hulk #1",
+      "powers": [
+        "Superhuman strength",
+        "Regeneration",
+        "Durability",
+        "Size and strength increase with anger"
+      ],
+      "id": "12a8"
+    },
+    {
+      "name": "Wade Wilson",
+      "alias": "Deadpool",
+      "firstAppearance": "New Mutants #98",
+      "powers": [
+        "Regenerative healing factor",
+        "Master martial artist",
+        "Expert marksman",
+        "Immortality"
+      ],
+      "id": "086b"
+    },
+    {
+      "name": "Scott Summers",
+      "alias": "Cyclops",
+      "firstAppearance": "X-Men #1",
+      "powers": [
+        "Optic blasts",
+        "Expert tactician",
+        "Leadership skills"
+      ],
+      "id": "1fa9"
+    },
+    {
+      "name": "Jean Grey",
+      "alias": "Phoenix",
+      "firstAppearance": "X-Men #1",
+      "powers": [
+        "Telepathy",
+        "Telekinesis",
+        "Molecular manipulation",
+        "Flight"
+      ],
+      "id": "6346"
+    },
+    {
+      "name": "T'Challa",
+      "alias": "Black Panther",
+      "firstAppearance": "Fantastic Four #52",
+      "powers": [
+        "Enhanced strength and agility",
+        "Vibranium suit",
+        "Expert hand-to-hand combatant"
+      ],
+      "id": "cae0"
+    },
+    {
+      "id": "59b7",
+      "name": "don juan",
+      "alias": "mr albañil",
+      "firstAppearance": "1600",
+      "powers": [
+        "tomar pola"
+      ]
+    },
+    {
+      "id": "4154",
+      "name": "Laura",
+      "alias": "Super Laura",
+      "firstAppearance": "2024",
+      "powers": [
+        "No morir",
+        "comer",
+        "dormir"
+      ]
+    },
+    {
+      "id": "6c86",
+      "name": "prueba",
+      "alias": "PRUEBA",
+      "firstAppearance": "PRUEBA",
+      "powers": [
+        "PRUEBA"
+      ]
+    },
+    {
+      "id": "7e4e",
+      "name": "prueba",
+      "alias": "prueba",
+      "firstAppearance": "prueba",
+      "powers": [
+        "prueba"
+      ]
+    },
+    {
+      "id": "0921",
+      "name": "Koll",
+      "alias": "llll",
+      "firstAppearance": "Da",
+      "powers": [
+        "Low"
+      ]
+    },
+    {
+      "id": "33bb",
+      "name": "Jhon",
+      "alias": "llll",
+      "firstAppearance": "",
+      "powers": [
+        "Low"
+      ]
+    }
+  ]
+}

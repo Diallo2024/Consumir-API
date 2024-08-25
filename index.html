@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="flex flex-col w-full h-screen bg-black items-center">
+
+    <div class="card min-w-[250px] bg-white rounded-2xl flex flex-col justify-center items-center m-5">
+        <h1 class="text-black font-bold mt-12 ">Consumir una API</h1>
+        <button
+        id="btnAdd"
+            class=" rounded  mx-2 py-4 px-6 bg-green-600 text-white font-bold w-[80%] flex text-center justify-center my-8">AÑADIR</button>
+        <form action="submit" id="formCreateUpdate" class="hidden w-[90%] min-w-[500px] m-6 flex flex-col justify-center">
+            <div class="w-full flex flex-col pb-3">
+                <label for="">Nombre</label>
+                <input type="text" class="w-full border-2 h-12 rounded " id="inputName"
+                    placeholder="Nombre de ciudadano">
+            </div>
+            <div class="w-full flex flex-col pb-3">
+                <label for="">Alias</label>
+                <input type="text" class="w-full border-2 h-12 rounded " id="inputAlias"
+                    placeholder="Nombre de super heroe">
+            </div>
+            <div class="w-full flex flex-col pb-3">
+                <label for="">Aparición</label>
+                <input type="text" class="w-full border-2 h-12 rounded " id="inputAppearance"
+                    placeholder="Donde y en que año">
+            </div>
+            <div class="w-full flex flex-col pb-3">
+                <label for="">Poderes</label>
+                <input type="text" class="w-full border-2 h-12 rounded " id="inputPowers"
+                    placeholder="Poderes que posee">
+            </div>
+            <button id="btnSave" type="submit"
+                class="w-full rounded-2xl bg-green-600 text-white font-bold py-4 px-6">Guardar</button>
+            <button id="btnClose" type="submit"
+                class="w-full rounded-2xl bg-red-600 text-white font-bold py-4 px-6">Cancelar</button>
+        </form>
+        <ul id="list" class=" w-[90%]">
+            <li class="flex flex-col justify-center items-center mb-5">
+                <div
+                    class="rounded border w-full max-lg:py-4 min-h-12 flex flex-wrap justify-between p-4 m-4 shadow-md text-center">
+                    <div class="flex flex-col max-lg:w-full lg:w-[25%] gap-5">
+                        <h3 class="font-bold text-md text-center">Nombre</h3>
+                        <p class"">${champ.name}</p>
+                    </div>
+                    <div class="flex flex-col max-lg:w-full lg:w-[25%] gap-5">
+                        <h3 class="font-bold text-md text-center">Nombre de héroe</h3>
+                        <p>${champ.alias}</p>
+                    </div>
+                    <div class="flex flex-col max-lg:w-full lg:w-[25%] gap-5">
+                        <h3 class="font-bold text-md text-center">Aparición</h3>
+                        <p class"">${champ.firstAppearance}</p>
+                    </div>
+                    <div class="flex flex-col max-lg:w-full lg:w-[25%] gap-5">
+                        <h3 class="font-bold text-md text-center">Poderes</h3>
+                        <p class"">poder 1, poder 2, poder 3</p>
+                    </div>
+                    <div class="noame w-full max-lg:py-4 mt-10 justify-center items-center flex ">
+                        <button
+                            class="btnDelete rounded mx-2 py-4 px-6 bg-red-600 text-white font-bold w-full flex text-center justify-center my-2">Borrar</button>
+                        <button
+                            class="btnUpdate rounded mx-2 py-4 px-6 bg-green-600 text-white font-bold w-full flex text-center justify-center my-2">Actualizar</button>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
