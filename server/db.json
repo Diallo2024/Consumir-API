@@ -1,18 +1,6 @@
 {
   "personajes": [
     {
-      "name": "Thor",
-      "alias": "Thor",
-      "firstAppearance": "Journey into Mystery #83",
-      "powers": [
-        "Superhuman strength",
-        "Control over lightning",
-        "Flight",
-        "Immortality"
-      ],
-      "id": "0f1e"
-    },
-    {
       "name": "Bruce Banner",
       "alias": "Hulk",
       "firstAppearance": "The Incredible Hulk #1",
@@ -76,36 +64,36 @@
       "alias": "mr albañil",
       "firstAppearance": "1600",
       "powers": [
-        "tomar pola"
+        "Tomar cafe"
       ]
     },
     {
       "id": "4154",
-      "name": "Laura",
-      "alias": "Super Laura",
+      "name": "Oury",
+      "alias": "OuryDev",
       "firstAppearance": "2024",
       "powers": [
-        "No morir",
-        "comer",
-        "dormir"
+        "Arender",
+        "Disfrutar",
+        "Paciencia"
       ]
     },
     {
       "id": "6c86",
-      "name": "prueba",
+      "name": "Obama",
       "alias": "PRUEBA",
-      "firstAppearance": "PRUEBA",
+      "firstAppearance": "2008",
       "powers": [
-        "PRUEBA"
+        "Make history"
       ]
     },
     {
       "id": "7e4e",
-      "name": "prueba",
-      "alias": "prueba",
-      "firstAppearance": "prueba",
+      "name": "Nelson Mandela",
+      "alias": "Madiba",
+      "firstAppearance": "1918",
       "powers": [
-        "prueba"
+        "Change History"
       ]
     },
     {
@@ -119,7 +107,16 @@
     },
     {
       "id": "33bb",
-      "name": "Jhon",
+      "name": "Wakanda",
+      "alias": "Black Panther",
+      "firstAppearance": "2022",
+      "powers": [
+        "Joy"
+      ]
+    },
+    {
+      "id": "b9f2",
+      "name": "fghop",
       "alias": "llll",
       "firstAppearance": "",
       "powers": [

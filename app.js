@@ -1,7 +1,6 @@
 // Llamada a la API
 const url_api = "http://localhost:3000/personajes"
 
-
 // Mostrar Base de Datos
 async function mostrar () {
     try {
@@ -102,7 +101,7 @@ async function crearActualizar (e) {
         }
         await mostrar()
         personajeId = null
-        
+         
     } catch (error) {
         console.log("Error al crear y actualizar el personaje", error)
     }
@@ -116,8 +115,7 @@ async function eliminar (id) {
         if (response.ok) {
             await mostrar()
         } else {
-            console.log('Error al eliminar el persoanje:', id)
-            
+            console.log('Error al eliminar el persoanje:', id)   
         }
     } catch (error) {
         console.log("Error al eliminar el personaje", error) 
@@ -139,8 +137,7 @@ btnClose.addEventListener('click',(e) =>{
     e.preventDefault()
     document.getElementById('formCreateUpdate').classList.add('hidden')
     document.getElementById('list').classList.remove('hidden')
-    buttonAdd.classList.remove('hidden')
-    
+    buttonAdd.classList.remove('hidden')   
 })
 
 let btnSave = document.getElementById('btnSave')
